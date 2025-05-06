@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1><span>Nikolai Fyodorov: A Bilingual Primer</span></h1>
+    <h4><span> &nbsp;&nbsp; <a href="index.html">Home</a> &nbsp; | &nbsp; <a href="writings.html">Writings</a> &nbsp; | &nbsp; <a href="links.html">Links</a>&nbsp; |  &nbsp;  <a href="about.html">About</a>&nbsp; &nbsp;</span></h4>
+  </div>
+  <div id="writings_text">
+<p>Please select a title from either the Russian or English-language dropdown menu to view the text of that essay in the original Russian and translated into English.</p>
+<p>To download the a .zip of all the text files, please use <a href="zipped_files/texts.zip">this link.</a></p>
+  </div>
+  <div class='parent'>
+        <div id="russian_selector" class='child1'>
+      <select id="SelectRussian" onchange="getTxtFileRus(this.value, this.item.eng)"></select>
+    </div>
+        <div id="english_selector" class='child1'>
+          <select id="SelectEnglish" onchange="getTxtFileEng(this.value)"></select>
+          </div>
+    </div>
+
+  <div class='parent'>
+    
+  <div id="RusTextDiv" class='child1'></div>
+
+  <div id="EngTextDiv" class='child2'></div>
+</div>
+  </body>
+  <script src="data.js"></script>
+</html>
+

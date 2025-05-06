@@ -1,0 +1,145 @@
+img
+{
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h1 span { 
+  background-color: rgb(255, 254, 254, 0.45); 
+}
+
+h4 span { 
+  background-color: rgb(255, 254, 254, 0.75); 
+}
+
+h1 {
+  padding-left: 28%;
+}
+
+a {
+  color: rgb(29, 25, 55);
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('images/new_fyodorov_header.jpg'); 
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  margin: 0;
+}
+
+
+#home_text {
+  text-align: center;
+  margin-top: 0 5%;
+  margin-bottom: 0 5%;
+  margin-right: 0 5%;
+  margin-left: 0 5%;
+  width: 135%;
+  font-size: 20px;
+  padding-top: 5%;
+  padding-right: 20%;
+}
+
+#writings_text {
+  font-size:20px;
+  padding: 20px;
+  text-align: center;
+}
+
+#about_text {
+  float:left;
+  font-size:20px;
+  width: 120%;
+  padding: 0px;
+}
+
+#wrap {
+  text-align: center;
+  width: 100%;
+  max-width: 1400px;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.box {
+  flex: 1;
+  height: 100%;
+  border: none;
+}
+
+#one {
+  display: inline-block;
+  background-color: #e1d4de;
+}
+
+#two {
+  margin: 0 15%;
+  display: inline-block;
+  background-color: white;
+  text-align: center;
+}
+
+#three {
+  margin: 0 5%;
+  display: inline-block;
+  background-color: #e1d4de;
+}
+
+#four {
+  margin: 0 5%;
+  display: inline-block;
+  background-color: white;
+}
+
+
+.parent {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  width: 90%;
+}
+.child1 {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  padding: 1rem 1rem;
+}
+.child2 {
+  display: inline-block;
+  float: right;
+  width: 40%;
+  padding: 1rem 1rem;
+}
+
+#russian_selector {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  padding: 1rem 1rem;
+}
+
+#english_selector {
+  display: inline-block;
+  float: right;
+  width: 40%;
+  padding: 1rem 1rem;
+}
+
+#SelectRussian {
+  width: 100%;
+}
+
+#SelectEnglish {
+  width: 100%;
+}
